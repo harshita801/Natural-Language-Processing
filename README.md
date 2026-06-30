@@ -1,6 +1,6 @@
 # 🧠 Natural Language Processing (NLP) Fundamentals
 
-Welcome to my hands-on NLP repository! This project serves as a comprehensive, step-by-step guide to mastering the fundamentals of **Natural Language Processing (NLP)** using **Python** and **NLTK**. It tracks my journey from basic text preprocessing to advanced vectorization techniques and future LLM applications.
+Welcome to my hands-on NLP repository! This project serves as a comprehensive, step-by-step guide to mastering the fundamentals of **Natural Language Processing (NLP)** using **Python**, **NLTK**, and **Gensim**. It tracks my journey from basic text preprocessing to advanced vectorization and word embedding techniques.
 
 ---
 
@@ -18,25 +18,13 @@ Welcome to my hands-on NLP repository! This project serves as a comprehensive, s
 *   **Bag of Words (BoW):** Counting word frequencies to build document vectors.
 *   **TF-IDF (Term Frequency-Inverse Document Frequency):** Scaling word importance based on document uniqueness.
 
+### 🔹 Word Embeddings (Semantic Vectorization)
+*   **Word2Vec (Pre-trained):** Implementing semantic word vectors using Google's famous pre-trained model mapping words into a 300-dimensional coordinate space (trained on 3 billion words from Google News).
+
 ---
 
 ## 🛠️ Tech Stack
 
 *   **Language:** Python 3.x
-*   **Core Libraries:** NLTK, Scikit-learn (for vectorization)
+*   **Core Libraries:** NLTK, Scikit-learn (for BoW/TF-IDF), Gensim (for Word2Vec)
 *   **Environment:** Jupyter Notebook
-
----
-
-## 📁 Repository Structure
-
-```text
-NLP/
-├── 01_Tokenization.ipynb
-├── 02_Stemming.ipynb
-├── 03_Lemmatization.ipynb
-├── 04_Stopwords.ipynb
-├── 05_POS_Tagging.ipynb
-├── 06_Named_Entity_Recognition.ipynb
-├── 07_Bag_of_Words.ipynb
-└── 08_TF_IDF.ipynb
